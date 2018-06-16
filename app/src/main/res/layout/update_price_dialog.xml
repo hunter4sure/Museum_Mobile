@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:hint="GBP: 12.50"
+            android:textStyle="bold"
+            android:textColor="#b71c1c"
+            android:id="@+id/changePriceEd"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="23sp"
+            android:background="@drawable/background_login"/>
+
+        <Button
+            android:id="@+id/btnChangeprice"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_signup"
+            android:text="Change Price" />
+    </LinearLayout>
+</LinearLayout>

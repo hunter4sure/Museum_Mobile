@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <item android:id="@+id/adpainting"
+         android:title="Add Painting"/>
+
+
+    <item
+        android:id="@+id/MasterView"
+        android:title="Master view"/>
+
+    <item
+        android:id="@+id/location"
+        android:title="Location"/>
+    <item
+        android:id="@+id/prices"
+        android:title="Prices"/>
+</menu>

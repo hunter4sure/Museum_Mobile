@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCEDC8">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:background="#CFD8DC"
+                android:layout_alignParentTop="true"
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                android:clickable="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textSize="26sp"
+                android:textColor="@color/textcolors"
+                android:layout_below="@id/imgView"
+                android:background="@drawable/background_login"
+                android:hint="Artist Name"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:background="@drawable/background_login"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/artist"
+                android:textColor="@color/textcolors"
+                android:hint="Title"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_login"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/textcolors"
+                android:layout_below="@id/title"
+                android:hint="Room"
+                android:inputType="text"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/room"
+                android:background="@drawable/background_login"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:textColor="@color/textcolors"
+                android:hint="Description"
+                android:inputType="text"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/background_login"
+                android:textAlignment="center"
+                android:layout_below="@id/desc"
+                android:hint="Year"
+                android:inputType="date"
+                android:textColor="@color/textcolors"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:id="@+id/rank"
+                android:background="@drawable/background_login"
+                android:textAlignment="center"
+                android:layout_below="@id/year"
+                android:hint="Rank"
+                android:inputType="number"
+                android:textColor="@color/textcolors"
+                android:ems="15"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
